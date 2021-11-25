@@ -1,5 +1,8 @@
 import { Link, To } from "react-router-dom";
 
+// CSS
+import './BasicButton.css';
+
 interface Props {
     text: string,
     click?: () => void,
@@ -9,9 +12,9 @@ interface Props {
 const BasicButton = ({text, click, path }: Props) => {
 
     return(
-        <main>
+        <main className="ButtonContainer">
             <Link to={`${path}`}>
-                <button onClick={click}>
+                <button className="BasicButton" onClick={click}>
                     {text}
                 </button>
             </Link>
