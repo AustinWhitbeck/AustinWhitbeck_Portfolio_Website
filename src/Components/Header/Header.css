@@ -1,0 +1,21 @@
+
+.Header {
+    /*  Flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Box Model */
+    padding: 10px;
+    width: 100%;
+
+    /* Border  */
+    border-bottom: solid 5px black;
+    box-sizing: border-box;
+}
+
+.HeaderNav {
+    display: flex;
+    flex-direction: row;
+}
