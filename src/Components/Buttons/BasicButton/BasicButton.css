@@ -1,5 +1,14 @@
 
 
 .BasicButton {
+
+    /* Box Model */
+    padding: 5px;
+
+    /* Size */
     width: 100px;
+
+    /* color */
+    color: white;
+    background-color: black;
 }

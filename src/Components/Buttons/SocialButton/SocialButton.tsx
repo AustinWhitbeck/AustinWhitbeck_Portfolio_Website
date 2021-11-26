@@ -25,7 +25,7 @@ const SocialButton = ({ link, icon, text }: Props) => {
 
     return(
         <main>
-            <a href={link}>
+            <a href={link} target="_blank">
                 <img className="icon-size" src={thisIcon} alt={`link to ${text}`} />
             </a>
         </main>

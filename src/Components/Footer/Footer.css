@@ -1,0 +1,16 @@
+
+.footer {
+
+    /* Size */
+    width: 100%;
+    box-sizing: border-box;
+
+    /* Position */
+    position: fixed;
+    bottom: 0px;
+
+    /* Color */
+    background-color: black;
+
+    margin: 0px;
+}

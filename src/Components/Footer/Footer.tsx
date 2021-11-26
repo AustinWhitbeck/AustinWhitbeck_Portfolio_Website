@@ -1,10 +1,13 @@
 import SocialButton from "../Buttons/SocialButton/SocialButton";
 
+// CSS
+import './Footer.css';
+
 
 const Footer = () => {
 
     return(
-        <footer className="container" >
+        <footer className="container footer" >
             <p>Footer</p>
             <SocialButton 
                 link="https://www.linkedin.com/in/austinwhitbeck/"
