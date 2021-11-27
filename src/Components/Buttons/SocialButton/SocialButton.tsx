@@ -1,6 +1,7 @@
 import '../../../Icons/linkedin_icon.svg';
 import linkedin from '../../../Icons/linkedin_icon.png';
 import github from '../../../Icons/GitHub-Mark-32px.png';
+import artstation from '../../../Icons/ArtStation_Icon_2.png';
 
 // CSS
 import './SocialButton.css';
@@ -21,6 +22,8 @@ const SocialButton = ({ link, icon, text }: Props) => {
         thisIcon = linkedin;
     } else if (icon == "GitHub") {
         thisIcon = github;
+    } else if (icon == "ArtStation") {
+        thisIcon = artstation;
     }
 
     return(

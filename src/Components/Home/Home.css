@@ -1,9 +1,10 @@
 
 
-.IntroSection {
-    
-    /* Box Model */
-    margin: 10px 30px;
-    padding: 5px;
+.homeTagline {
+    display: flex;
+    flex-direction: column;
+}
 
+.tagline {
+    text-align: end;
 }

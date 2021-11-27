@@ -3,6 +3,7 @@
 
     /* Size */
     width: 100%;
+    height: 100px;
     box-sizing: border-box;
 
     /* Position */
@@ -10,7 +11,11 @@
     bottom: 0px;
 
     /* Color */
-    background-color: black;
+    background-color: rgb(50, 48, 54);
 
     margin: 0px;
+    padding: 10px;
+
+    /* Flex */
+    display: flex;
 }

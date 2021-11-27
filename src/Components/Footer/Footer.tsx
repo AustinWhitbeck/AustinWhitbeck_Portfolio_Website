@@ -8,7 +8,6 @@ const Footer = () => {
 
     return(
         <footer className="container footer" >
-            <p>Footer</p>
             <SocialButton 
                 link="https://www.linkedin.com/in/austinwhitbeck/"
                 icon="LinkedIn"
@@ -18,6 +17,11 @@ const Footer = () => {
                 link="https://github.com/AustinWhitbeck"
                 icon="GitHub"
                 text="GitHub"
+            />
+            <SocialButton 
+                link="https://www.artstation.com/austinwhitbeckart"
+                icon="ArtStation"
+                text="ArtStation"
             />
             
 

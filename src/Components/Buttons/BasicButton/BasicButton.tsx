@@ -13,7 +13,7 @@ const BasicButton = ({text, click, path }: Props) => {
 
     return(
         <main className="ButtonContainer">
-            <Link to={`${path}`}>
+            <Link to={`${path}`} >
                 <button className="BasicButton" onClick={click}>
                     {text}
                 </button>

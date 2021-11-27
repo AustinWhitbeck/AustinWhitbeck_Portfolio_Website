@@ -4,11 +4,25 @@
 
     /* Box Model */
     padding: 5px;
+    margin: 10px 0;
 
     /* Size */
-    width: 100px;
+    width: 80px;
 
     /* color */
     color: white;
-    background-color: black;
+    background-color: #3E3943;
+    border-style: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: .25s;
+}
+
+.BasicButton:hover {
+    transition: scale(5);
+    -webkit-box-shadow: 5px 5px 16px -2px #000000; 
+    box-shadow: 5px 5px 16px -2px #000000;
+
 }
