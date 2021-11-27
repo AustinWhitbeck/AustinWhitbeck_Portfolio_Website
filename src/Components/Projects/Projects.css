@@ -1,0 +1,11 @@
+
+
+.projectItemsSect {
+
+    /* Box Model */
+    padding: 10px;
+
+    /* Border */
+    border-style: solid;
+    border-radius: 10px;
+}

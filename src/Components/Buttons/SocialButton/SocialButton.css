@@ -1,4 +1,10 @@
 
+.socialButtonContainer {
+    display: flex;
+    align-items: center;
+    
+}
+
 .icon-size {
     height: 20px;
 }

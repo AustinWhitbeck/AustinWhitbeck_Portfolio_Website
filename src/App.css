@@ -12,6 +12,8 @@ a {
 }
 
 
+/*****   CONTAINERS  *******/
+
 
 .container {
   /* Box Model */
@@ -28,7 +30,22 @@ a {
   justify-content: flex-end;
 
   /* Color */
-  background-color: blue;
+  background-color: #DEDBE3;
+
+  /* Border */
+  border-radius: 10px;
+
+  /* Box Model */
+  padding: 10px;
 
   /* Size */
+}
+
+
+/*****   TITLES  *******/
+
+.pageTitle {
+  font-size: 50px;
+  text-align: center;
+  margin: 30px 0 10px 0;
 }
