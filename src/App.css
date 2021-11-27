@@ -11,6 +11,15 @@ a {
   color: white;
 }
 
+/***** HEX CODES ******/
+/* 
+Lightest purple - #DEDBE3
+Light purple - #716979
+Dark Purple - #3E3943
+
+
+*/
+
 
 /*****   CONTAINERS  *******/
 
@@ -23,7 +32,7 @@ a {
 
 /*  sub containers */
 
-.sub-contain-right {
+.sub-container {
   /* Flex */
   display: flex;
   flex-direction: row;

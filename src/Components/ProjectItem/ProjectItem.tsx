@@ -3,7 +3,11 @@
 import './ProjectItem.css';
 
 interface Props {
-    
+    link?: string,
+    image?: string,
+    title?: string,
+    blurb?: string
+
 }
 
 const ProjectItem = () => {

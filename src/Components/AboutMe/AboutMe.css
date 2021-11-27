@@ -1,0 +1,25 @@
+
+.sub-container-about {
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  
+    /* Color */
+    background-color: #DEDBE3;
+  
+    /* Border */
+    border-radius: 10px;
+  
+    /* Box Model */
+    margin-top: 20px;
+    padding: 10px 60px;
+  
+    /* Size */
+}
+
+.highlighted-text {
+    color: #1f83b9;
+    font-size: 20px;
+}
+
