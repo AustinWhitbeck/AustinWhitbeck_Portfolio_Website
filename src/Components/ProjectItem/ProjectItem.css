@@ -18,16 +18,23 @@
 
     /* Color */
     /* background-color: #DEDBE3; */
-    background-color:#aba4b8;
+    background-color:#716979;
+    border-style: solid;
+    border-color: #716979;
 
-    transition: .25s;
+    transition: .5s;
 }
 
 .projectItemContainer:hover {
-    transition: scale(5);
+    transition: all scale(20);
     background-color:#aba4b8;
     -webkit-box-shadow: 0px 0px 12px 1px #099DF7; 
     box-shadow: 0px 0px 12px 1px #099DF7;
+    border-style: solid;
+    border-color: #bee1f7;
+
+    position: relative;
+    bottom: 10px;
 }
 
 .projectInfoSect {
