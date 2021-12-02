@@ -22,6 +22,7 @@
     border-style: solid;
     border-color: #716979;
 
+    filter: opacity(50%);
     transition: .5s;
 }
 
@@ -35,6 +36,8 @@
 
     position: relative;
     bottom: 10px;
+
+    filter: opacity(100%);
 }
 
 .projectInfoSect {
@@ -42,7 +45,7 @@
     padding: 10px;
     /* Size */
     width: 80%;
-    height: 100%;
+    /* height: 100%; */
 
     /* Border */
     border-style: solid;
@@ -51,16 +54,24 @@
 .projectPrevImgSect {
     /* Box Model */
     margin-right: 10px;
-    padding: 10px;
+    /* padding: 10px; */
 
     /* Size */
     width: 20%;
     height: 100%;
 
     /* Border */
-    border-style: solid;
+    /* border-style: solid; */
 
 }
+
+.projectImage {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+
 
 /* TITLES */
 
