@@ -2,7 +2,20 @@
 .socialButtonContainer {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    border-radius: 100%;
+    transition: .2s;
     
+}
+
+.socialButtonContainer:hover {
+    transition: scale(20);
+    -webkit-box-shadow: 5px 5px 16px -2px #000000; 
+    box-shadow: 5px 5px 16px -2px #000000;
+    background-color: #aba4b8;
 }
 
 .icon-size {

@@ -26,7 +26,7 @@ const Header = () => {
                     path="/Projects"
                     />
                     <button className="BasicButton">
-                        <a href="https://www.dropbox.com/s/xscmkh30mj4h4oq/AustinWhitbeck_Resume_2021.pdf?dl=0" target="_blank">RESUME</a>
+                        <a href="https://www.dropbox.com/s/xscmkh30mj4h4oq/AustinWhitbeck_Resume_2021.pdf?dl=0" target="_blank" className="headerLink">RESUME</a>
                     </button>
                 </nav>
             </section>

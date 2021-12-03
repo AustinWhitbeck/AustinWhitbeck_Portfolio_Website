@@ -13,14 +13,41 @@
     z-index: -1;
 }
 
+/* Head */
+
 .standInMechHead {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background-color: gray;
     border-radius: 100%;
 
     position: absolute;
 }
+
+.earRight {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(109, 109, 109);
+
+    position: absolute;
+    bottom: 380px;
+    right: 600px;
+    z-index: -1;
+}
+
+.mechVisor {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 160px solid orange;
+    transform: rotate(180deg);
+    position: relative;
+    top: 165px;
+    right: -20px;
+}
+
+/* Torso */
 
 .standInMechTorso {
     width: 600px;
@@ -33,4 +60,16 @@
     position: absolute;
     bottom: 30px;
     z-index: -2;
+}
+
+.mechShoulderRight {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+
+    position: absolute;
+    bottom: 300px;
+    right: 250px;
+
+    transform: rotate(40deg);
 }

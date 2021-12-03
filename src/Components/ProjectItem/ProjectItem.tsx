@@ -11,20 +11,25 @@ import MinerMadness300px from '../../Images/MinerMadness_300px.png';
 // SocialNet //
 import SocialNet300px from '../../Images/SocialNet_300px.png';
 
+// Evaros //
+import Evaros300px from '../../Images/Evaros_300px.png';
+
 
 import './ProjectItem.css';
 
 interface Props {
-    link?: string,
-    image?: string,
-    title?: string,
+    link: string,
+    link2?: string,
+    link2Name?: string,
+    image: string,
+    title: string,
     blurb?: string
 
 }
 
 
 
-const ProjectItem = ({link, image, title, blurb}: Props) => {
+const ProjectItem = ({link, link2, link2Name, image, title, blurb}: Props) => {
 
     let thisImage = undefined;
 
@@ -45,17 +50,22 @@ const ProjectItem = ({link, image, title, blurb}: Props) => {
         case image = 'SocialNet300':
             thisImage = SocialNet300px
             break;
+        case image = 'Evaros300':
+            thisImage = Evaros300px
     }
 
     return(
         <main className="projectItemContainer">
             <section className="projectPrevImgSect">
-                <img src={thisImage} alt="project preview picture" className="projectImage"/>
+                <a href={link} target="_blank">
+                    <img src={thisImage} alt="project preview picture" className="projectImage"/>
+                </a>
             </section>
             <section className="projectInfoSect">
-                <h4 className="projectTitle">Project: {title}</h4>
-                <p>{blurb}</p>
-                <a href={link} target="_blank">...Rerouting to Project...</a>
+                <h3 className="projectTitle">Project: {title}</h3>
+                <p className="itemInfo">{blurb}</p>
+                <a href={link2} target="_blank" className="itemInfo">{link2Name}</a>
+                <a href={link} target="_blank" className="itemInfo">Reroute to Project</a>
             </section>
         </main>
 

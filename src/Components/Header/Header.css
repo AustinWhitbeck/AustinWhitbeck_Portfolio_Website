@@ -67,6 +67,7 @@
 
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .HeaderSection3 {
@@ -79,3 +80,7 @@
 }
 
 
+
+.headerLink {
+    color: #DEDBE3;
+}

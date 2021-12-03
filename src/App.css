@@ -2,13 +2,19 @@
 
 body {
   margin: 0;
-  background-color: #F9F6FE;
+  background-color: #f6fafe;
 
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #1e5677;
+  font-weight: bolder;
+  transition: .15s;
+}
+
+a:hover {
+  color:#bee1f7;
 }
 
 /***** HEX CODES ******/
