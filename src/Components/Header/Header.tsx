@@ -30,7 +30,7 @@ const Header = () => {
                     </button>
                 </nav>
             </section>
-            <div className="HeaderSection2">
+            <section className="HeaderSection2">
                 <SocialButton 
                     link="https://www.linkedin.com/in/austinwhitbeck/"
                     icon="LinkedIn"
@@ -46,7 +46,7 @@ const Header = () => {
                     icon="ArtStation"
                     text="ArtStation"
                 />
-            </div>
+            </section>
             <div className="HeaderSection3"></div>
         </header>
     )

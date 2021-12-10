@@ -9,13 +9,15 @@ import './Home.css';
 const Home = () => {
 
     return(
-        <main>
+        <main className="homePageContainer">
             <section className="container homeTagline">
                 <h2 className="tagline">Conceptualize your Goals</h2>
                 <h2 className="tagline">Build your</h2>
                 <h1 className="tagline">Future</h1>
             </section>
-            <Mech/>
+            <Mech
+            size="fullMech"
+            />
         </main>
     )
 }

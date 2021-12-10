@@ -1,7 +1,11 @@
-
+import mech from '../../Images/ResumeRobot-01.png';
 import './Mech.css';
 
-const Mech = () => {
+interface Props {
+    size: string;
+}
+
+const Mech = ({size}: Props) => {
 
     return(
         <main className="mechContainer">
@@ -21,6 +25,7 @@ const Mech = () => {
             <section className="mechShoulderRightContainer">
                 <div className="mechShoulderRight"></div>
             </section> */}
+            <img className={size} src={mech} alt="big mecha" />
             
 
         </main>

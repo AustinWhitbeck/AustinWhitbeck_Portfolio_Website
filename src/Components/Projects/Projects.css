@@ -11,4 +11,16 @@
 
     /* Color */
     background-color: #716979;
+    opacity: calc(96%);
+}
+
+/* ***** MEDIA QUERY 768px ******/
+
+
+@media only screen and (max-width: 768px) {
+
+    .container {
+        margin: 0 5px;
+    }
+
 }

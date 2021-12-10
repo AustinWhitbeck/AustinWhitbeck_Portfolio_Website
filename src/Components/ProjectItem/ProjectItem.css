@@ -13,6 +13,9 @@
     margin: 20px 0;
     padding: 10px;
 
+    /* Size */
+    /* max-width: 80%; */
+
     /* Border */
     border-radius: 10px;
 
@@ -22,7 +25,7 @@
     border-style: solid;
     border-color: #07162e;
 
-    filter: opacity(50%);
+    filter: opacity(100%);
     transition: .5s;
 }
 
@@ -84,9 +87,45 @@
     text-align: center;
     font-size: 30px;
     color: #3E3943;
+    margin: 0;
 }
 
 
 .itemInfo {
     text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+/* ***** MEDIA QUERY ****** */
+
+@media only screen and (max-width: 768px) {
+
+    .projectItemContainer {
+        flex-direction: column;
+        justify-content: start;
+        /* height: 900px; */
+
+    }
+    
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projectPrevImgSect {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projectImage {
+        margin: 5px;
+        width: 80%;
+        height: 80%;
+        
+    }
 }

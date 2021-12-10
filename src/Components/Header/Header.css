@@ -84,3 +84,50 @@
 .headerLink {
     color: #DEDBE3;
 }
+
+
+/* ***** MEDIA QUERY 768px ******* */
+
+@media only screen and (max-width: 768px) {
+  
+
+    .Header {
+        flex-direction: row;
+        position: sticky;
+        /* left: 0; */
+        /* top: -475px; */
+        align-items: flex-start;
+
+        /* height: 100px; */
+        width: 100%;
+
+        z-index: 4;
+    }
+
+    .HeaderNav {
+        flex-direction: row;
+    }
+
+    /* sections */
+    .HeaderSectionMain {
+        height: 50px;
+        padding: 2px;
+    }
+
+    .HeaderSectionTitle {
+        display: none;
+    }
+
+    .HeaderSection2 {
+        padding: 0;
+        margin: 0;
+        height: 54px;
+        /* width: 20%; */
+    }
+
+    .HeaderSection3 {
+        display: none;
+    }
+
+
+  }

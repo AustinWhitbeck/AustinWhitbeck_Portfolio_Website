@@ -2,7 +2,8 @@
 
 body {
   margin: 0;
-  background-color: #f6fafe;
+  background-color: #bcc0c8;
+  font-family: 'Orbitron', sans-serif;
 
 }
 
@@ -32,7 +33,7 @@ Dark Purple - #3E3943
 
 .container {
   /* Box Model */
-  margin: 0px 30px 10px 180px;
+  margin: 0px 30px 10px 200px;
   padding: 5px;
 }
 
@@ -62,5 +63,24 @@ Dark Purple - #3E3943
 .pageTitle {
   font-size: 50px;
   text-align: center;
-  margin: 30px 0 10px 0;
+  margin: 30px 0 30px 0;
+  padding: 10px;
+  /* border-style: solid;
+  border-color: ; */
+  border-radius: 10px;
+  background-color: #4f7a8b;
+  color: white;
+}
+
+.pageSubTitle {
+  font-size: 35px;
+  text-align: center;
+  margin: 30px 0 30px 0;
+  padding: 10px;
+  /* border-style: solid;
+  border-color: ; */
+  border-radius: 10px;
+  background-color: none;
+  color: white;
+  font-style:italic;
 }

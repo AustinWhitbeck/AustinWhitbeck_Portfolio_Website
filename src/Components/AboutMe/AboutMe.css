@@ -7,6 +7,7 @@
   
     /* Color */
     background-color: #DEDBE3;
+    opacity: calc(95%);
   
     /* Border */
     border-radius: 10px;
@@ -21,5 +22,16 @@
 .highlighted-text {
     color: #1f83b9;
     font-size: 20px;
+}
+
+
+
+
+/***** MECH CSS *****/
+
+.aboutMechDesktop {
+    height: 900px;
+    margin-top: 500px;
+   
 }
 

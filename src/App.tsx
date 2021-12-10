@@ -20,7 +20,6 @@ function App() {
           <Route path="/Projects" element={ <Projects /> }/>
         </Routes>
       
-        {/* <Footer/> */}
         {/* <Mech/> */}
 
       </Router>

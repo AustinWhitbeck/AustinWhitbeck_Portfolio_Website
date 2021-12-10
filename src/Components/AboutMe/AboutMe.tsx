@@ -1,5 +1,6 @@
 
 
+import Mech from '../Mech/Mech';
 import './AboutMe.css';
 
 const AboutMe = () => {
@@ -15,6 +16,9 @@ const AboutMe = () => {
             {/* <section className="sub-contain-right">
                 <h3>The Journey to Today</h3>
             </section> */}
+            <Mech
+            size="aboutMechDesktop"
+            />
 
         </main>
     )

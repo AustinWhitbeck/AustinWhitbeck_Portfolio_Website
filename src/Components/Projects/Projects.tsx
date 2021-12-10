@@ -18,9 +18,9 @@ const Projects = () => {
 
     return(
         <main className="container allprojects">
-            <h3 className="pageTitle">The Greaves: Projects</h3>
+            <h2 className="pageTitle">The Greaves: Projects</h2>
             <section className="projectItemsSect">
-                <h2>Dev projects</h2>
+                <h3 className="pageSubTitle" >Dev projects</h3>
                 <ProjectItem
                     link="https://my-scheduling-62f94.web.app/"
                     image='SkedMan300'
@@ -33,7 +33,7 @@ const Projects = () => {
                     title="SocialNet"
                     blurb={blurbs[1]}
                 />
-                <h2>Art projects</h2>
+                <h3 className="pageSubTitle">Art projects</h3>
                 <ProjectItem
                     link="https://www.artstation.com/artwork/3PEkB"
                     link2="http://epicsite.org/minermadness/"
