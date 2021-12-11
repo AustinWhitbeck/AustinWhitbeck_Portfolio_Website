@@ -16,9 +16,9 @@ const AboutMe = () => {
             {/* <section className="sub-contain-right">
                 <h3>The Journey to Today</h3>
             </section> */}
-            <Mech
+            {/* <Mech
             size="aboutMechDesktop"
-            />
+            /> */}
 
         </main>
     )

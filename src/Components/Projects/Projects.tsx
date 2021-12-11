@@ -7,7 +7,7 @@ const Projects = () => {
 
     const blurbs = [
         // SkedMan
-        "SkedMan is a volunteer management system. I did most of this project",
+        "SkedMan is a volunteer management system that utilizes the full stack of Typescript, Express, and MongoDB to utilize CRUD functionality and allow the user to add contacts and leave reports.",
         // SocialNet
         "SocialNet is a social media project utilizing pulling data from an API and displaying this by mapping the information across reusable components",
         // Miner Madness

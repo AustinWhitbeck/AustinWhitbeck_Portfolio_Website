@@ -25,7 +25,6 @@
     border-style: solid;
     border-color: #07162e;
 
-    filter: opacity(100%);
     transition: .5s;
 }
 
@@ -40,7 +39,6 @@
     position: relative;
     bottom: 10px;
 
-    filter: opacity(100%);
 }
 
 .projectInfoSect {
